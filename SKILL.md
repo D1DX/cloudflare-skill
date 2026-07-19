@@ -2,7 +2,7 @@
 name: cloudflare
 description: Unified Cloudflare skill — Workers (Hono), R2, D1, KV, DNS, SSL/TLS, caching, WAF, Zero Trust, Terraform IaC, wrangler, and deployment. Auto-triggers on any Cloudflare task.
 disable-model-invocation: false
-user-invocable: true
+user-invokable: true
 argument-hint: "task description"
 ---
 
@@ -10,7 +10,7 @@ argument-hint: "task description"
 
 Workers, R2, D1, KV, DNS, SSL, caching, WAF, Zero Trust, and Terraform.
 
-**As of April 2026.** Hono v4+, Wrangler v3+, Terraform provider v4.40+ (v5 migration pending).
+Current: Hono v4+, Wrangler v3+, Terraform provider v4.40+ (v5 migration pending).
 
 ---
 
@@ -257,7 +257,7 @@ cf-terraforming generate --token "$TOKEN" --account "$ACCT" \
 import { to = cloudflare_resource.name, id = "account_id/resource_id" }
 ```
 
-### v5 Migration Status (April 2026)
+### v5 Migration Status
 
 v5.17.0 GA but has Zero Trust bugs (idempotency #5565, reusable policy #5499). **Stay on v4.40+ until migration tool ships.** Using `zero_trust_` prefixed resource names on v4 is forward-compatible with v5.
 

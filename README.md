@@ -50,9 +50,9 @@ cloudflare-skill/
 
 ## Sources
 
-- **Workers, D1, R2, KV:** Verified against [Cloudflare Workers documentation](https://developers.cloudflare.com/workers/) and production deployments (April 2026).
+- **Workers, D1, R2, KV:** Verified against [Cloudflare Workers documentation](https://developers.cloudflare.com/workers/) and production deployments.
 - **Zero Trust & Terraform:** Verified against [Cloudflare Terraform provider docs](https://registry.terraform.io/providers/cloudflare/cloudflare/latest/docs) and live Terraform configurations (v4.40+).
-- **v5 migration status:** Verified from [Cloudflare provider changelog](https://github.com/cloudflare/terraform-provider-cloudflare/releases) (April 2026).
+- **v5 migration status:** Verified from [Cloudflare provider changelog](https://github.com/cloudflare/terraform-provider-cloudflare/releases).
 
 ## Credits
 
